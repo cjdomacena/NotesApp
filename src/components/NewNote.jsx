@@ -9,7 +9,7 @@ import { updateNoteSuccess, updateActiveNote } from '../redux/noteSlice';
 
 export default function NewNote() {
   const { activeNote: note } = useSelector((state) => state.notes);
-  const [newNote, setNewNote] = useState(`${note[0].body}}`);
+  const [newNote, setNewNote] = useState(note[0].body);
   const dispatch = useDispatch();
   const textAreaRef = useRef(null);
 
@@ -51,6 +51,7 @@ export default function NewNote() {
         <textarea
           className="w-full h-full bg-slate-800 text-slate-200 focus:outline-hidden focus:border-0 focus-within:outline-none overflow-auto resize-none"
           placeholder="Use markdown syntax..."
+          defaultValue={newNote}
           ref={textAreaRef}
           onChange={handleInput}
         />

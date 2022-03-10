@@ -19,7 +19,7 @@ function NoteCard({ note }) {
       onClick={setActiveNote}
     >
       <div className="p-4 text-slate-100 h-full flex flex-col justify-between">
-        <h1 className="text-lg  font-bold">{note.title}</h1>
+        <h1 className="text-lg  font-bold truncate">{note.title}</h1>
         <p className="text-xs">{note.updatedAt === '' ? note.createdAt : note.updatedAt}</p>
       </div>
     </div>
