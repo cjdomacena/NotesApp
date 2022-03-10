@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cjdomacena.github.io/notesapp/static/css/main.34a07aff.css",
+    "main.js": "/cjdomacena.github.io/notesapp/static/js/main.7be28c78.js",
+    "index.html": "/cjdomacena.github.io/notesapp/index.html",
+    "main.34a07aff.css.map": "/cjdomacena.github.io/notesapp/static/css/main.34a07aff.css.map",
+    "main.7be28c78.js.map": "/cjdomacena.github.io/notesapp/static/js/main.7be28c78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34a07aff.css",
+    "static/js/main.7be28c78.js"
+  ]
+}
