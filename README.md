@@ -4,6 +4,7 @@ A simple notes app.
 
 ### TODO: 
 - Make page responsive.
+- Add delete
 #### Tech used:
 - react
 - tailwindcss
